@@ -1,10 +1,9 @@
-package com.main.hyj.pattern.adapter.login;
+package com.main.hyj.pattern.decorator.passport;
 
 /**
- * create by flytohyj  2019/7/23
+ * create by flytohyj  2019/7/25
  **/
-public interface IPassportForThird {
-
+public interface ISigninForThirdService extends ISigninService{
     /**
      * QQ 登录
      * @param id
